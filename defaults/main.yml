@@ -1,0 +1,7 @@
+---
+  go_tarball: "go1.9.2.linux-amd64.tar.gz"
+  go_tarball_checksum: "de874549d9a8d8d8062be05808509c09a88a248e77ec14eb77453530829ac02b"
+  go_version_target: "go version go1.9.2 linux/amd64"
+  go_dest_dir: /usr/local
+  go_download_location: "https://golang.org/dl/{{ go_tarball }}"
+  app__project_version_root: '~/'
